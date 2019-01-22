@@ -7,7 +7,7 @@ This repository is the ultimate self-contained reference for **out of distributi
 
 The hope is to provide the community with a current picture of the state-of-the-art on this problem. We welcome all contributions to this repository through [pull requests](pulls). You can also discuss your ideas and thoughts on ways to improve this repository in the [issues page](/issues).
 
-*Last Update: Jan 16, 2019*.
+*Last Update: Jan 22, 2019*.
 
 **Note**. 
 *In the following days, we will be gradually updating this repository with the latest developments. Meanwhile, stay tuned and feel free to contribute.*
@@ -16,11 +16,26 @@ The hope is to provide the community with a current picture of the state-of-the-
 - [Introduction](#introduction)
   - [Why Should We Care?](#why-should-we-care)
   - [Relevant Literatures](#relevant-literatures)
+    - [Epistemic Uncertainty](#epistemic-uncertainty)
+    - [Prediction with Abstention](#prediction-with-abstention)
+    - [Anomaly Detection](#anomaly-detection)
+    - [Novelty Detection](#novelty-detection)
   - [Evaluation Techniques](#evaluation-techniques)
+    - [Two-distribution](#two-distribution)
+    - [OD-test](#od-test)
 - [Methods](#methods)
   - [2018](#2018)
+    - [Generative ensembles for robust anomaly detection](#generative-ensembles-for-robust-anomaly-detection)
+    - [Detecting Out-Of-Distribution Samples Using Low-Order Deep Features Statistics](#detecting-out-of-distribution-samples-using-low-order-deep-features-statistics)
+    - [A simple unified framework for detecting out-of-distribution samples and adversarial attacks](#a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks)
+    - [Anomaly Detection with Generative Adversarial Networks](#anomaly-detection-with-generative-adversarial-networks)
+    - [Novelty Detection with GAN](#novelty-detection-with-gan)
   - [2017](#2017)
+    - [Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks](#enhancing-the-reliability-of-out-of-distribution-image-detection-in-neural-networks)
+    - [Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples](#training-confidence-calibrated-classifiers-for-detecting-out-of-distribution-samples)
   - [2016](#2016)
+    - [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](#a-baseline-for-detecting-misclassified-and-out-of-distribution-examples-in-neural-networks)
+    - [Towards Open Set Deep Networks](#towards-open-set-deep-networks)
   - [2015](#2015)
 
 # Introduction
@@ -34,10 +49,57 @@ This problem is perhaps more critical than it seems, especially in the deep lear
 Determining whether an input is familiar (i.e., belongs to the population distribution of the training data), should be a *pre-condition to prediction with deep learning models*. If the sample is out-of-distribution, then the predictions are unreliable, and the error cannot be bounded.
 
 ## Relevant Literatures
+
+### Epistemic Uncertainty
+
+### Prediction with Abstention
+
+### Anomaly Detection
+
+### Novelty Detection
+
 ## Evaluation Techniques
+
+### Two-distribution
+- False-positive rate at 95% true-positive rate.
+- optimal detection error.
+- area under the ROC curve
+- area under the PR curve.
+
+### OD-test
+Shafaei, Alireza, Mark Schmidt, and James J. Little. "Does Your Model Know the Digit 6 Is Not a Cat? A Less Biased Evaluation of" Outlier" Detectors." arXiv preprint arXiv:1809.04729 (2018).
 
 # Methods
 ## 2018
+
+### Generative ensembles for robust anomaly detection
+H. Choi and E. Jang, “Generative ensembles for robust anomaly detection,” arXiv Prepr. arXiv1810.01392, 2018.
+
+### Detecting Out-Of-Distribution Samples Using Low-Order Deep Features Statistics
+I. M. Quintanilha, R. de M. E. Filho, J. Lezama, M. Delbracio, and L. O. Nunes, “Detecting Out-Of-Distribution Samples Using Low-Order Deep Features Statistics.” 2018.
+
+### A simple unified framework for detecting out-of-distribution samples and adversarial attacks
+K. Lee, K. Lee, H. Lee, and J. Shin, “A simple unified framework for detecting out-of-distribution samples and adversarial attacks,” in Advances in Neural Information Processing Systems, 2018, pp. 7167–7177.
+
+### Anomaly Detection with Generative Adversarial Networks
+L. Deecke, R. Vandermeulen, L. Ruff, S. Mandt, and M. Kloft, “Anomaly Detection with Generative Adversarial Networks.” 2018.
+
+### Novelty Detection with GAN
+M. Kliger and S. Fleishman, “Novelty Detection with GAN,” arXiv:1802.10560, 2018.
+
 ## 2017
+### Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks
+S. Liang, Y. Li, and R. Srikant, “Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks,” ICLR, 2018.
+
+### Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples
+K. Lee, H. Lee, K. Lee, and J. Shin, “Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples,” in ICLR, 2018.
+
 ## 2016
+
+### A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks
+D. Hendrycks and K. Gimpel, “A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks,” ICLR, 2017.
+
+### Towards Open Set Deep Networks
+A. Bendale and T. E. Boult, “Towards Open Set Deep Networks,” in CVPR, 2016.
+
 ## 2015
