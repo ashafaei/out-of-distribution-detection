@@ -25,6 +25,12 @@ The hope is to provide the community with a current picture of the state-of-the-
     - [OD-test](#od-test)
 - [Methods](#methods)
   - [2018](#2018)
+    - [Deep anomaly detection with outlier exposure](#deep-anomaly-detection-with-outlier-exposure)
+    - [Metric Learning for Novelty and Anomaly Detection](#metric-learning-for-novelty-and-anomaly-detection)
+    - [Reducing Network Agnostophobia](#reducing-network-agnostophobia)
+    - [Out-of-distribution detection using an ensemble of self supervised leave-out classifiers](#out-of-distribution-detection-using-an-ensemble-of-self-supervised-leave-out-classifiers)
+    - [Enhancing the Robustness of Prior Network in Out-of-Distribution Detection](#enhancing-the-robustness-of-prior-network-in-out-of-distribution-detection)
+    - [Out-of-distribution detection using multiple semantic label representations](#out-of-distribution-detection-using-multiple-semantic-label-representations)
     - [Generative ensembles for robust anomaly detection](#generative-ensembles-for-robust-anomaly-detection)
     - [Detecting Out-Of-Distribution Samples Using Low-Order Deep Features Statistics](#detecting-out-of-distribution-samples-using-low-order-deep-features-statistics)
     - [A simple unified framework for detecting out-of-distribution samples and adversarial attacks](#a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks)
@@ -71,6 +77,24 @@ Shafaei, Alireza, Mark Schmidt, and James J. Little. "Does Your Model Know the D
 
 # Methods
 ## 2018
+
+### Deep anomaly detection with outlier exposure
+D. Hendrycks, M. Mazeika, and T. G. Dietterich, “Deep anomaly detection with outlier exposure,” arXiv Prepr. arXiv1812.04606, 2018.
+
+### Metric Learning for Novelty and Anomaly Detection
+M. Masana, I. Ruiz, J. Serrat, J. van de Weijer, and A. M. Lopez, “Metric Learning for Novelty and Anomaly Detection,” arXiv Prepr. arXiv1808.05492, 2018.
+
+### Reducing Network Agnostophobia
+A. R. Dhamija, M. Günther, and T. Boult, “Reducing Network Agnostophobia,” in Advances in Neural Information Processing Systems 31, S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett, Eds. Curran Associates, Inc., 2018, pp. 9175–9186.
+
+### Out-of-distribution detection using an ensemble of self supervised leave-out classifiers
+A. Vyas, N. Jammalamadaka, X. Zhu, D. Das, B. Kaul, and T. L. Willke, “Out-of-distribution detection using an ensemble of self supervised leave-out classifiers,” in European Conference on Computer Vision, 2018, pp. 560–574.
+
+### Enhancing the Robustness of Prior Network in Out-of-Distribution Detection
+W. Chen, Y. Shen, X. Wang, and W. Wang, “Enhancing the Robustness of Prior Network in Out-of-Distribution Detection,” arXiv Prepr. arXiv1811.07308, 2018.
+
+### Out-of-distribution detection using multiple semantic label representations
+G. Shalev, Y. Adi, and J. Keshet, “Out-of-distribution detection using multiple semantic label representations,” in Advances in Neural Information Processing Systems, 2018, pp. 7386–7396.
 
 ### Generative ensembles for robust anomaly detection
 H. Choi and E. Jang, “Generative ensembles for robust anomaly detection,” arXiv Prepr. arXiv1810.01392, 2018.
