@@ -24,6 +24,8 @@ The hope is to provide the community with a current picture of the state-of-the-
     - [Two-distribution](#two-distribution)
     - [OD-test](#od-test)
 - [Methods](#methods)
+  - [2019](#2019)
+    - [Outlier exposure with confidence control for out-of-distribution detection](#outlier-exposure-with-confidence-control-for-out-of-distribution-detection)
   - [2018](#2018)
     - [Deep anomaly detection with outlier exposure](#deep-anomaly-detection-with-outlier-exposure)
     - [Metric Learning for Novelty and Anomaly Detection](#metric-learning-for-novelty-and-anomaly-detection)
@@ -76,6 +78,11 @@ Determining whether an input is familiar (i.e., belongs to the population distri
 Shafaei, Alireza, Mark Schmidt, and James J. Little. "Does Your Model Know the Digit 6 Is Not a Cat? A Less Biased Evaluation of" Outlier" Detectors." arXiv preprint arXiv:1809.04729 (2018).
 
 # Methods
+## 2019
+
+### Outlier exposure with confidence control for out-of-distribution detection 
+A.-A. Papadopoulos, M. R. Rajati, N. Shaikh, and J. Wang, “Outlier Exposure with Confidence Control for Out-of-Distribution Detection,” arXiv Prepr. arXiv1906.03509, 2019.
+
 ## 2018
 
 ### Deep anomaly detection with outlier exposure
